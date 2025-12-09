@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "UniBazaar Lite";
+}
+
+<div class="text-center" style="margin-top: 60px;">
+    <img src="~/logo.png" alt="UniBazaar Lite Logo" style="width:300px; height:auto; margin-bottom: 30px;" />
+    <h1 class="display-4" style="margin-bottom: 20px;">UniBazaar Lite</h1>
+    <p style="font-size: 1.2rem; max-width: 500px; margin: 0 auto 30px auto;">
+        UniBazaar Lite, üniversite topluluğunuz için etkinliklerin ve öğrenci ilanlarının buluşma noktasıdır. Kampüs etkinliklerini takip edin, eşyalarınızı alıp satın, topluluğun bir parçası olun!
+    </p>
+    <div style="margin-top: 30px;">
+        <a href="/Auth/Signin" class="btn btn-primary" style="margin-right: 10px; min-width: 120px;">Sign In</a>
+        <a href="/Auth/Signup" class="btn btn-outline-secondary" style="min-width: 120px;">Sign Up</a>
+    </div>
+</div>
